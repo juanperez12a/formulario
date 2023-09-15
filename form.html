@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <main>
+<form>
+<h1>Formulario de Perros</h1>
+<h2>Gracias por tomar la encuesta</h2>
+<fieldset class="datos">
+<legend>Datos</legend>
+<label for="name">Nombre:</label>
+<input type="text" id="name" name="name" placeholder="pon tu nombre">
+
+<label for="apellido">Apellido:</label> 
+<input type="text" id="apellido" name="apellido" placeholder="pon tu apellido">
+
+<label for="age">Edad:</label> 
+<input type="number" id="age" name="age" placeholder="pon tu edad" min="10" max="55">
+
+</fieldset>
+<label for="razas" >Cual es tu raza favorita</label>
+<select placeholder="raza">
+<option value="1" >Pastor aleman</option>
+<option value="2">Husky siberiano</option>
+<option value="3">Pug</option>
+</select>
+<p>Por que te gusta</p>
+<label for="radio" >es bonito</label>
+<input type="radio" id="radio" name="radio" class="linea">
+<br>
+<label for="radio" >es gordo</label>
+<input type="radio" id="radio" name="radio" class="linea" >
+<br>
+<label for="radio" >es jugueton</label>
+<input type="radio" id="radio" name="radio" class="linea" >
+<br>
+
+<fieldset class="hola">
+    <label for="gustar">que le das a tu perro</label>
+    <select id="gustar" placeholder="raza">
+        <option value="1" >pollo</option>
+        <option value="2">verduras</option>
+        <option value="3">croquetas</option>
+        </select>
+</fieldset>
+
+
+</form>
+<p>Actividades de perros</p>
+<label for="check" >jugar</label>
+<input type="checkbox" id="check" name="check" class="linea" >
+<br>
+<label for="check" >dormir</label>
+<input type="checkbox" id="check" name="check" class="linea" >
+<br>
+<label for="check" >bañar</label>
+<input type="checkbox" id="check" name="check" class="linea" >
+<br>
+<label for="check" >comer</label>
+<input type="checkbox" id="check" name="check" class="linea" >
+<br>
+<p>comentario:</p>
+<textarea cols="50" rows="10" placeholder="escribe un comentario"></textarea>
+
+<button type="submit">submit</button>
+  </main>  
+
+</body>
+</html>
